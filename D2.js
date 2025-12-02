@@ -3,35 +3,34 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
-/*
-let num1 = 0.2;
-let num2 = 0.09;
-console.log(num1 > num2);
+/*let num1 = 10;
+let num2 = 20;
 if (num1 > num2) {
   console.log(num1);
 } else {
-  console.log(num2);
-}
+  num2 > num1;
+
+  console.log(num2);}
 */
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
+
 */
-/*
-let num1 = 4;
+
+/* SCRIVI QUI LA TUA RISPOSTA */
+/*let num1 = 7;
 if (num1 !== 5) {
   console.log("not equal");
 }
 */
-/* SCRIVI QUI LA TUA RISPOSTA */
-
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/*let num1 = 10;
+/*
+let num1 = 30;
 if (num1 % 5 === 0) {
   console.log("divisibile per 5");
 }
@@ -42,13 +41,14 @@ if (num1 % 5 === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 /*
+let num1 = 8;
+let num2 = 4;
 if (num1 === 8 || num2 === 8 || num1 + num2 === 8 || num1 - num2 === 8 || num2 - num1 === 8) {
   console.log("vero");
 } else {
   console.log("falso");
 }
 */
-
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
@@ -57,15 +57,17 @@ if (num1 === 8 || num2 === 8 || num1 + num2 === 8 || num1 - num2 === 8 || num2 -
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-/*let totalShoppingCart = 60;
-let shippingCost = 10;
-
-if (totalShoppingCart > 50) {
-  shippingCost = 0;
+/*
+let totaleshoppingcart = 40;
+let shippingcost = 10;
+let message1 = "hai diritto alla spedizione gratuita";
+let message2 = "il costo della spedizione è di 10 euro";
+if (totaleshoppingcart >= 50) {
+  shippingcost = 0;
+  console.log((message1 = "hai diritto alla spedizione gratuita"));
+} else {
+  console.log((message2 = "il costo della spedizione è di 10 euro"));
 }
-
-let totalToCharge = totalShoppingCart + shippingCost;
-console.log(totalToCharge);
 */
 
 /* ESERCIZIO 6
@@ -74,58 +76,49 @@ console.log(totalToCharge);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/*let totalShoppingCart = 60;
-let shippingCost = 10;
-
-if (totalShoppingCart > 50) {
-  shippingCost = 0;
+/*
+let totaleshoppingcart = 40;
+let shippingcost = 10;
+let message1 = "hai diritto alla spedizione gratuita";
+let message2 = "il costo della spedizione è di 10 euro";
+const black_friday_discount = 0.2;
+totaleshoppingcart = totaleshoppingcart - totaleshoppingcart * black_friday_discount;
+if (totaleshoppingcart >= 50) {
+  shippingcost = 0;
+  console.log((message1 = " hai diritto alla spedizione gratuita"));
+} else {
+  totaleshoppingcart <= 50;
+  shippingcost = 10;
+  console.log((message2 = "il costo della spedizione è di 10 euro"));
 }
-
-let totalToCharge = totalShoppingCart + shippingCost;
-console.log(totalToCharge);
-*/
+  */
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
+  
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/*if (a > b && a > c) {
-  if (b > c) {
-    console.log(a, b, c);
-  } else {
-    console.log(a, c, b);
-  }
-} else if (b > a && b > c) {
-  if (a > c) {
-    console.log(b, a, c);
-  } else {
-    console.log(b, c, a);
-  }
-} else {
-  if (a > b) {
-    console.log(c, a, b);
-  } else {
-    console.log(c, b, a);
-  }
+/*
+let numero1 = 56;
+let numero2 = 28;
+let numero3 = 39;
+if (numero3 >= numero2 && numero2 >= numero3) {
 }
-  */
+if (numero2 >= numero3) {
+  console.log(numero1, numero2, numero3);
+} else {
+  console.log(numero1, numero3, numero2);
+}
+*/
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/*
-let value = 42;
-if (typeof value === "number") {
-  console.log("Il valore è un numero");
-} else {
-  console.log("Il valore non è un numero");
-}
-  */
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
@@ -133,14 +126,14 @@ if (typeof value === "number") {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 /*
-if (num1 % 2 === 0) {
-  console.log("Il numero è pari");
+let valore1 = 25;
+let valore2 = 60;
+if (valore1 % 2 === 0) {
+  console.log(valore1 + "il numero è dispari");
 } else {
-  console.log("Il numero è dispari");
+  console.log(valore2 + "il numero è dispari");
 }
-/*
 */
-
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
@@ -154,16 +147,6 @@ if (num1 % 2 === 0) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/*
-let val = 7;
-if (val < 5) {
-  console.log("Meno di 5");
-} else if (val < 10) {
-  console.log("Meno di 10");
-} else {
-  console.log("Uguale a 10 o maggiore");
-}  
-  */
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
@@ -182,30 +165,21 @@ const me = {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-delete me.lastName;
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-me.skills.pop();
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/*let arr = [];
-for (let i = 1; i <= 10; i++) {
-  arr.push(i);
-}
-  */
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/*arr[arr.length - 1] = 100;
- */
